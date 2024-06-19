@@ -1,0 +1,27 @@
+/* Navbar Cart Icon */
+.icon-cart, .icon-cart-empty {
+  width: 40px;
+}
+
+#cart-icon-bubble {
+  position: relative;
+  display: inline-block;
+}
+
+.cart-count-bubble {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+  padding: 2px 8px;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cart-count-bubble span {
+  display: block;
+}
