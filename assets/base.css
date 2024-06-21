@@ -1,3 +1,32 @@
+/* Announcement Bar */
+/* Change the color of the carousel control icons */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-image: none; /* Remove the default background image */
+}
+
+.carousel-control-prev-icon::after,
+.carousel-control-next-icon::after {
+  content: '';
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border-top: 2px solid #ff0000; /* Change this to your desired color */
+  border-right: 2px solid #ff0000; /* Change this to your desired color */
+}
+
+.carousel-control-prev-icon::after {
+  transform: rotate(-135deg);
+}
+
+.carousel-control-next-icon::after {
+  transform: rotate(45deg);
+}
+
+
+
+
+
 /* Navbar Cart Icon */
 .icon-cart, .icon-cart-empty {
   width: 40px;
