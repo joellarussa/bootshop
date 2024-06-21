@@ -3,6 +3,7 @@
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
   background-image: none; /* Remove the default background image */
+  height: 20px;
 }
 
 .carousel-control-prev-icon::after,
@@ -22,7 +23,6 @@
 .carousel-control-next-icon::after {
   transform: rotate(45deg);
 }
-
 
 
 
