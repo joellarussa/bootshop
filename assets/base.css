@@ -24,9 +24,6 @@
   transform: rotate(45deg);
 }
 
-
-
-
 /* Navbar Cart Icon */
 .icon-cart, .icon-cart-empty {
   width: 40px;
@@ -53,4 +50,23 @@
 
 .cart-count-bubble span {
   display: block;
+}
+
+/* Image Banner */
+.banner__heading, .banner__text {
+  color: #fff;
+}
+
+.banner__buttons a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.banner__buttons {
+  width: 100px;
+  padding: 8px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid #fff;
+  border-radius: 4px;
 }
